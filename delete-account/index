@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.imgur.com/NJOvzEH.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://i.imgur.com/NJOvzEH.png" type="image/x-icon">
+    <title>Eliminar cuenta - MindPlanner</title>
+    <style>
+        body,
+        html {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header,
+        .footer {
+            background: linear-gradient(45deg, #16EBFA, #3F48FC);
+            color: white;
+            padding: 1.5em 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: white;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            flex-grow: 1;
+            background-color: #ffffff;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        p {
+            color: #7f8c8d;
+            max-width: 600px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .email {
+            font-weight: bold;
+            color: #3F48FC;
+            font-size: 1.1em;
+            word-break: break-all;
+        }
+
+        .footer p {
+            margin: 0 auto;
+            padding: 0;
+            color: white;
+            width: 100%;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>MindPlanner</h1>
+    </div>
+
+    <div class="container">
+        <h2 class="gradient-title">Eliminar tu cuenta</h2>
+        <p>Si deseas eliminar permanentemente tu cuenta de MindPlanner, por favor envíanos un correo electrónico desde la misma cuenta que usaste en la aplicación.</p>
+        <p>Indica en el asunto: <strong>“Eliminar cuenta”</strong> y en el mensaje incluye cualquier detalle relevante.</p>
+        <p>Correo de contacto: <br><span class="email">mindplannermobileapp@gmail.com</span></p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 MindPlanner. Todos los derechos reservados.</p>
+    </div>
+</body>
+
+</html>
